@@ -4,6 +4,10 @@ Autonomous RL post-training research. Give an AI agent a real RL training setup 
 
 Inspired by [autoresearch](https://github.com/karpathy/autoresearch) (pretraining), this applies the same philosophy to **RL post-training** using [prime-rl](https://github.com/PrimeIntellect-ai/prime-rl) and [verifiers](https://github.com/PrimeIntellect-ai/verifiers).
 
+## Progress
+
+![Autoresearch-RL Progress](progress.png)
+
 ## How it works
 
 The repo has four files that matter:
