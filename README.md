@@ -4,7 +4,7 @@ If you've ever tried RL post-training, you know the pain. You tweak the learning
 
 So when I saw Andrej Karpathy's [autoresearch](https://github.com/karpathy/autoresearch), where he let an AI agent autonomously run pretraining experiments overnight, the first thing that came to mind was: why not do this for RL post-training? That's where the real pain is. That's where you actually need the help.
 
-That's what this is. You point an AI agent at a real RL training setup, go to sleep, and wake up to a log of 60+ experiments it ran while you were gone. Each one modifies the config, trains for 10 minutes, checks if eval improved, keeps or discards, and moves on to the next idea. No babysitting. No manual hyperparameter sweeps. Just let it cook.
+That's what this is. You point an AI agent at a real RL training setup, go to sleep, and wake up to a log of 60+ experiments it ran while you were gone. Each one modifies the config, trains for 10 minutes, checks if evals improved, keeps or discards, and moves on to the next idea. No babysitting. No manual hyperparameter sweeps. Just let it cook.
 
 Built on [prime-rl](https://github.com/PrimeIntellect-ai/prime-rl), honestly my favourite RL post-training framework out there, and [verifiers](https://github.com/PrimeIntellect-ai/verifiers) for reward verification.
 
